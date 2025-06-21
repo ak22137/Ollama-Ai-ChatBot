@@ -1,0 +1,38 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Start Backend",
+			"type": "shell",
+			"command": "python",
+			"args": ["main.py"],
+			"options": {
+				"cwd": "${workspaceFolder}/src/backend"
+			},
+			"group": "build",
+			"isBackground": true,
+			"problemMatcher": []
+		},
+		{
+			"label": "Start Frontend",
+			"type": "shell",
+			"command": "npm",
+			"args": ["start"],
+			"group": "build",
+			"options": {
+				"cwd": "${workspaceFolder}/src/frontend"
+			},
+			"isBackground": true,
+			"problemMatcher": []
+		},
+		{
+			"label": "Start AI Chatbot",
+			"dependsOrder": "parallel",
+			"dependsOn": [
+				"Start Backend",
+				"Start Frontend"
+			],
+			"group": "build"
+		}
+	]
+}

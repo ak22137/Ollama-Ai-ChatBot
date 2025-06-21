@@ -1,0 +1,33 @@
+AI CHATBOT PROJECT STRUCTURE
+Created by Akshat Singh Panwar
+
+Project Root/
+├── README.md                 # Main documentation
+├── README.txt               # Detailed text documentation
+├── start.bat               # Easy startup script for Windows
+├── .vscode/
+│   └── tasks.json          # VS Code development tasks
+├── src/
+│   ├── backend/            # FastAPI backend server
+│   │   ├── main.py         # Main API server with Ollama integration
+│   │   └── requirements.txt # Python dependencies
+│   └── frontend/           # React frontend application
+│       ├── public/
+│       │   └── index.html  # HTML template
+│       ├── src/
+│       │   ├── App.js      # Main React component with chat UI
+│       │   └── index.js    # App initialization and theme
+│       └── package.json    # Node.js dependencies
+
+MAIN FILES:
+- src/backend/main.py: FastAPI server that connects to Ollama
+- src/frontend/src/App.js: ChatGPT-like React interface
+- start.bat: One-click startup for the entire application
+- README.txt: Complete documentation and instructions
+
+USAGE:
+1. Ensure Ollama is installed and running
+2. Double-click start.bat to launch the application
+3. Open http://localhost:3000 to use the chatbot
+
+This is a clean, minimal structure with only essential files.
