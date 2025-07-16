@@ -1,5 +1,5 @@
 # AI Chatbot with NLP
-
+Chatbotgif.gif
 An intelligent conversational AI chatbot using transformer models and natural language understanding. This project uses FastAPI for the backend API and React for the frontend interface.
 
 ## Features
