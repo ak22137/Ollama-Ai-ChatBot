@@ -1,5 +1,5 @@
 # AI Chatbot with NLP
-<img src="https://raw.githubusercontent.com/ak22137/Ollama-Ai-ChatBot/main/Chatbotgif.gif" width="500"/>
+<img src="https://raw.githubusercontent.com/ak22137/Ollama-Ai-ChatBot/main/Chatbotgif.gif" width="1000"/>
 An intelligent conversational AI chatbot using transformer models and natural language understanding. This project uses FastAPI for the backend API and React for the frontend interface.
 
 ## Features
