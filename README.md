@@ -13,16 +13,17 @@ An intelligent conversational AI chatbot using transformer models and natural la
 ## Project Structure
 
 ```
-├── src/
-│   ├── backend/
-│   │   ├── main.py
-│   │   └── requirements.txt
-│   └── frontend/
-│       ├── src/
-│       │   ├── App.js
-│       │   └── index.js
-│       └── package.json
-└── # AI Chatbot with Ollama
+ src/
+    -backend/
+         -![Chatbotgif](https://github.com/user-attachments/assets/de2fcf75-a4dd-423c-bbf3-7918b36b63f8)
+main.py
+         
+    -frontend/
+         src/
+            App.js
+            index.js
+            package.json
+AI Chatbot with Ollama
 **Created by Akshat Singh Panwar**
 
 A modern ChatGPT-like interface for interacting with Ollama AI models locally. This project features a FastAPI backend and a React frontend with Material-UI components.
@@ -149,6 +150,3 @@ You can customize the chatbot by:
 3. Adjusting the theme in `index.js`
 4. Adding new API endpoints in `main.py`
 
-## License
-
-MIT License
